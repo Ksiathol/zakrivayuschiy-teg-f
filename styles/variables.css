@@ -1,1 +1,23 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-main: "Inter";
+  --font-accent: "PressStrart2P";
+  --font-main__text-wght: 410;
+  --font-main__title-wght: 715;
+  --gradient:
+    repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a 100%);
+  --block-wdth: clamp(375px, 48.61vw, 700px);
+  --card-border: 2px solid #000;
+  --text__shadow-color: rgba(256, 256, 256, 0.5);
+  --text-shadow:    
+    -1px -1px 0 var(--text__shadow-color),
+    1px -1px 0 var(--text__shadow-color),
+    -1px 1px 0 var(--text__shadow-color),
+    1px 1px 0 var(--text__shadow-color);
+  --accent-color: #000;
+  --contour-color: #000;
+  --animation-fill-color: red;
+  --bg-color: #fff;
+}
