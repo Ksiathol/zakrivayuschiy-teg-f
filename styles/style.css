@@ -35,7 +35,7 @@
   align-items: center;
   padding: clamp(7.625rem, 7.449rem + 0.75vw, 8.125rem);
   background-color: #fff;
-  font-family: var(--font-accent);
+  font-family: var(--font-accent), fantasy;
   border: var(--card-border);
   text-transform: uppercase;
 }
@@ -114,7 +114,7 @@
   right: 25px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
-  font-family: var(--font-accent);
+  font-family: var(--font-accent), fantasy;
   font-variation-settings: "wght" 400;
   text-shadow: var(--text-shadow);
   mix-blend-mode: hard-light;
@@ -162,7 +162,7 @@
 }
 
 .button {
-  font-family: var(--font-accent);
+  font-family: var(--font-accent), fantasy;
   font-size: 14px;
   border: var(--card-border);
   background-color: var(--bg-color);
@@ -239,7 +239,7 @@
 }
 
 .dialog__text {
-  font-family: var(--font-accent);
+  font-family: var(--font-accent), fantasy;
   font-size: 14px;
   line-height: 150%;
   grid-column: 2;
