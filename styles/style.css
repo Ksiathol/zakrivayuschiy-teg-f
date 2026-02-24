@@ -150,6 +150,9 @@
   cursor: pointer;
   border: 2px solid transparent;
   transition: border-color 0.3s ease;
+  block-size: 38px;
+  display: flex;
+  align-items: center;
 }
 
 .card__icon-button:focus,
@@ -221,7 +224,6 @@
 .save__dialog[open] {
   display: grid;
   grid-template-columns: min-content 1fr;
-  min-block-size: 191px;
   inline-size: 341px;
   row-gap: 30px;
   column-gap: 20px;
